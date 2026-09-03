@@ -1,0 +1,19 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Each user can only read and write their own sensor data.
+    // Anonymous Auth UID is used as the folder identifier.
+    match /sensor-data/users/{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId;
+    }
+
+    // Shared read-only schemas accessible to any authenticated user.
+    match /sensor-data/shared/schemas/{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if false; // managed outside the app
+    }
+  }
+}

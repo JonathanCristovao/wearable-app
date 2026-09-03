@@ -395,15 +395,3 @@ flutter test
 ## License
 
 This project maintains the same license as the original Kotlin project.
-
-## Citação
-
-```bibtex
-@misc{silva2026wearableapp,
-  author       = {Silva, Jonathan Crist{\'o}v{\~a}o Ferreira},
-  title        = {Wearable App: nome ou descrição do software},
-  year         = {2026},
-  howpublished = {\url{https://github.com/JonathanCristovao/wearable-app}},
-  note         = {Repositório do GitHub. Acesso em: {day} {month}. {year}}
-}
-```

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124142724566",
+    "project_id": "aiwearable",
+    "storage_bucket": ""
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124142724566:android:ac971b784f40e967c47077",
+        "android_client_info": {
+          "package_name": "com.sensor.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
