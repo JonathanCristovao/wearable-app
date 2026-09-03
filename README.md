@@ -396,12 +396,12 @@ flutter test
 
 This project maintains the same license as the original Kotlin project.
 
-## Citação
+## Cite:
 
 ```bibtex
 @misc{silva2026wearableapp,
   author       = {Silva, Jonathan Crist{\'o}v{\~a}o Ferreira},
-  title        = {Wearable App: nome ou descrição do software},
+  title        = {Wearable Sensor Motion: Application for capturing, analyzing, and visualizing human movements in real time using wearable IMU sensors and smartphone sensors.},
   year         = {2026},
   howpublished = {\url{https://github.com/JonathanCristovao/wearable-app}},
   note         = {Repositório do GitHub. Acesso em: {day} {month}. {year}}
