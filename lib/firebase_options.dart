@@ -24,10 +24,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCf15v9PDNOWwnx4SJKdtneNKL2MUtNsPk',
-    appId: '1:124142724566:android:ac971b784f40e967c47077',
-    messagingSenderId: '124142724566',
-    projectId: 'aiwearable-f9788',
-    storageBucket: 'aiwearable-f9788.firebasestorage.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 }
